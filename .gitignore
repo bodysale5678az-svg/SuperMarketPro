@@ -1,0 +1,24 @@
+# Build output
+build/
+out/
+*.exe
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exp
+*.lib
+
+# Runtime data (user data — never commit)
+data/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
