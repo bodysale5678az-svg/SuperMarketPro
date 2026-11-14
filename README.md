@@ -1,5 +1,9 @@
 # 🛒 SuperMarket Pro
 
+![C++17](https://img.shields.io/badge/C%2B%2B-17-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![CI](https://github.com/bodysale5678az-svg/SuperMarketPro/actions/workflows/ci.yml/badge.svg)
+![CMake](https://img.shields.io/badge/CMake-3.16%2B-064F8C?style=flat-square&logo=cmake&logoColor=white)
+
 A **supermarket management system** written from scratch in **modern C++17** — clean OOP architecture, persistent storage, role-based access and a full point-of-sale flow.
 
 > Built as a learning project to practise real object-oriented design in C++: abstraction, inheritance, encapsulation, composition and separation of concerns.
