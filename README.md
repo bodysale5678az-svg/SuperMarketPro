@@ -70,7 +70,13 @@ include/
 
 ### Requirements
 - A C++17 compiler (MSVC, GCC or Clang)
-- CMake 3.16+
+- CMake 3.16+ (optional — a direct g++ build works too)
+
+### With g++ (MinGW)
+```bash
+g++ -std=c++17 -O2 -Iinclude src/main.cpp src/Application.cpp src/SupermarketService.cpp -o build/SuperMarketPro.exe
+./build/SuperMarketPro.exe
+```
 
 ### With CMake
 ```bash
@@ -85,6 +91,7 @@ cl /std:c++17 /EHsc /Iinclude src\*.cpp /Fe:SuperMarketPro.exe
 ```
 
 > Uses `std::filesystem`, so **C++17** is required.
+> The project compiles cleanly with `-Wall -Wextra` (no warnings).
 
 ---
 
